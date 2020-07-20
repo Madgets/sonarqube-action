@@ -39,7 +39,6 @@ with:
   projectKey: "my-custom-project"
   projectName: "my-custom-project-name"
   projectVersion: "v0.0.1"
-  projectName: "my-project-name"
 ```
 
 ## Secrets
