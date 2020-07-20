@@ -35,8 +35,10 @@ You can change the analysis base directory and/ project key _(allowed characters
 ```yaml
 uses: kitabisa/sonarqube-action@master
 with:
-  projectBaseDir: my-custom-directory
-  projectKey: my-custom-project
+  projectBaseDir: "/path/to/my-custom-project"
+  projectKey: "my-custom-project"
+  projectName: "my-custom-project-name"
+  projectVersion: "v0.0.1"
   projectName: "my-project-name"
 ```
 
