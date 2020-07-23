@@ -27,4 +27,5 @@ sonar-scanner \
 	-Dsonar.sources=. \
 	-Dsonar.branch=20200720001 \
 	-Dsonar.java.binaries=.scannerwork \
+	-X \
 	-Dsonar.sourceEncoding=UTF-8
