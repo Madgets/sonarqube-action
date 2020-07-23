@@ -17,6 +17,7 @@ fi
 
 
 sonar-scanner \
+	-X \
 	-Dsonar.host.url=${INPUT_HOST} \
 	-Dsonar.projectKey=${SONAR_PROJECTKEY} \
 	-Dsonar.projectName=${SONAR_PROJECTNAME} \
@@ -27,5 +28,4 @@ sonar-scanner \
 	-Dsonar.sources=. \
 	-Dsonar.branch=20200720001 \
 	-Dsonar.java.binaries=.scannerwork \
-	-X \
 	-Dsonar.sourceEncoding=UTF-8
